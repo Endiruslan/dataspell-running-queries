@@ -4,7 +4,7 @@ DataSpell plugin that shows currently running Redshift queries in a popup.
 
 ## Features
 
-- **Cmd+.** opens a popup with running queries filtered by your user
+- **Control (^) +.** opens a popup with running queries filtered by your user
 - Switch between configured data sources via dropdown
 - **Kill** — cancel a query with `pg_cancel_backend()` (inline confirmation, no modal dialogs)
 - **Refresh** — reload the list
@@ -29,7 +29,7 @@ DataSpell plugin that shows currently running Redshift queries in a popup.
 1. Download `running-queries-1.0.0.zip` from [Releases](../../releases)
 2. DataSpell → **Settings → Plugins → gear icon → Install Plugin from Disk**
 3. Select the ZIP, restart DataSpell
-4. Press **Cmd+.**
+4. Press **Control (^) +.**
 
 ## Build from source
 
