@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>dev.runningqueries</id>
+    <name>Running Queries Monitor</name>
+    <version>1.0.0</version>
+    <vendor>Ruslan</vendor>
+    <description>Shows running Redshift queries in a popup (Cmd+.)</description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.database</depends>
+
+    <actions>
+        <action id="RunningQueries.Show"
+                class="dev.runningqueries.ShowRunningQueriesAction"
+                text="Show Running Queries"
+                description="Shows currently running SQL queries on Redshift">
+            <keyboard-shortcut keymap="$default" first-keystroke="meta PERIOD"/>
+        </action>
+    </actions>
+</idea-plugin>
